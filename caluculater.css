@@ -12,7 +12,7 @@ html{
     width:100%;
 }
 .caluculaterDiv{
-    display:flex;
+    display:inline-flex;
     padding:9px;
     position: relative;
     flex-direction: column;
