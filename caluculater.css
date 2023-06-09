@@ -3,13 +3,14 @@ html{
 }
 .body{
     display:inline-flex;
-    background-color: ;
+    background-color: black;
     border:solid black 1px;
     text-align:center;
     justify-content: center;
     align-items: center;
     height:100%;
     width:100%;
+    margin:0px;
 }
 .caluculaterDiv{
     display:inline-flex;
@@ -39,6 +40,7 @@ html{
     background-color: gray;
     color:white;
     border:none;
+    border-radius:3px;
 }
 .buttonAC{
    grid-column: 3/5;
