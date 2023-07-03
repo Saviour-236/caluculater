@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="caluculater.css">
-    <link rel="stylesheet" href="caluculater.css">
+    <link   src="caluculater.js">
     <title>caluculater</title>
     <script src="caluculater.js"></script>
 </head>
 <body class="body">
     <div class="caluculaterDiv">
         <div class="buttonsDiv">
-            <input class="input">   
-            <button class="button+">+</button>
-            <button class="button-">-</button>
-            <button class="button*">*</button>
-            <button class="button/">/</button>
-            <button class="button1">1</button>
-            <button class="button2">2</button>
-            <button class="button3">3</button>
-            <button class="buttonEqualTo">=</button>
-            <button class="button4">4</button>
-            <button class="button5">5</button>
-            <button class="button6">6</button>
-            <button class="button7">7</button>
-            <button class="button8">8</button>
-            <button class="button9">9</button>
-            <button class="button0">0</button>
-            <button class="buttonC">.</button>
-            <button class="buttonAC">AC</button>
+            <input class="input"  id="DS" placeholder="0">   
+            <button class="button+" onclick="Changing('+')"><b>+</b></button>
+            <button class="button-" onclick="Changing('-')"><b>-</b></button>
+            <button class="button*" onclick="Changing('*')"><b>*</b></button>
+            <button class="button/" onclick="Changing('/')"><b>/</b></button>
+            <button class="button1" onclick="Changing('1')">1</button>
+            <button class="button2" onclick="Changing('2')">2</button>
+            <button class="button3" onclick="Changing('3')">3</button>
+            <button class="buttonEqualTo" id="buttonEqualTo" onclick="evl()">=</button>
+            <button class="button4" onclick="Changing('4')">4</button>
+            <button class="button5" onclick="Changing('5')">5</button>
+            <button class="button6" onclick="Changing('6')">6</button>
+            <button class="button7" onclick="Changing('7')">7</button>
+            <button class="button8" onclick="Changing('8')">8</button>
+            <button class="button9" onclick="Changing('9')">9</button>
+            <button class="button0" onclick="Changing('0')">0</button>
+            <button class="buttonC" onclick="Changing('.')">.</button>
+            <button class="buttonClear" onclick="Clr()">C</button>
+            <button class="buttonAc" onclick="Allclear()" id="AC">AC</button>
         </div>
     </div>
 </body>
