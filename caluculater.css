@@ -11,6 +11,9 @@ html{
     height:100%;
     width:100%;
     margin:0px;
+    padding-top:5px;
+    padding:20px;
+
 }
 .caluculaterDiv{
     display:inline-flex;
@@ -18,9 +21,6 @@ html{
     position: absolute;
     flex-direction: column;
     width:fit-content;
-    margin:auto;
-    margin-top:8rem;
-    margin-bottom:8rem;
     border-radius: 9px;
     background-color: gray;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
